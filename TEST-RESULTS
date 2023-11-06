@@ -58,3 +58,31 @@ Aplikacija vraća "ERROR" kada se unese neispravan izraz.
 Aplikacija ispravno tretira velike brojeve bez gubitka preciznosti.
 
 Aplikacija ispravno tretira izraze s decimalnim brojevima.
+
+
+
+
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+
+public class CalculatorTest {
+
+    public void testCalculate() {
+      
+        List<Float> numbers = new ArrayList<>();
+        List<String> operations = new ArrayList<>();
+        
+
+        numbers.add(2.0f);
+        numbers.add(3.0f);
+        operations.add("+");
+        
+        Calculator.Calculate(numbers, operations);
+        
+        float expected = 5.0f;
+        float actual = Calculator.finalResult;
+        
+        assertEquals(expected, actual, 0.001);  
+    }
+}
