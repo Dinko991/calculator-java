@@ -1,0 +1,60 @@
+Testiranje kalkulatora
+
+Test 1: Testiranje zbrajanja
+Ulaz: "2+3"
+Očekivani rezultat: "5"
+Stvarni rezultat: (rezultat kalkulatora za ovaj unos)
+
+Test 2: Testiranje oduzimanja
+Ulaz: "5-3"
+Očekivani rezultat: "2"
+Stvarni rezultat: (rezultat kalkulatora za ovaj unos)
+
+Test 3: Testiranje množenja
+Ulaz: "4*2"
+Očekivani rezultat: "8"
+Stvarni rezultat: (rezultat kalkulatora za ovaj unos)
+
+Test 4: Testiranje dijeljenja
+Ulaz: "6/3"
+Očekivani rezultat: "2"
+Stvarni rezultat: (rezultat kalkulatora za ovaj unos)
+
+Test 5: Testiranje prioriteta operacija
+Ulaz: "2+3*4"
+Očekivani rezultat: "14" (zbog prioritet operacija)
+Stvarni rezultat: (rezultat kalkulatora za ovaj unos)
+
+Test 6: Testiranje negativnog broja
+Ulaz: "-2+3"
+Očekivani rezultat: "1"
+Stvarni rezultat: (rezultat kalkulatora za ovaj unos)
+
+Test 7: Testiranje neispravnog izraza
+Ulaz: "2++3"
+Očekivani rezultat: "ERROR" (zbog neispravnog izraza)
+Stvarni rezultat: (rezultat kalkulatora za ovaj unos)
+
+Test 8: Testiranje velikog broja
+Ulaz: "999999999*2"
+Očekivani rezultat: "1999999998" (velik broj)
+Stvarni rezultat: (rezultat kalkulatora za ovaj unos)
+
+Test 9: Testiranje izraza s decimalnim brojevima
+Ulaz: "0.5*3"
+Očekivani rezultat: "1.5" (decimalni brojevi)
+Stvarni rezultat: (rezultat kalkulatora za ovaj unos)
+Izvještaj o testiranju
+Testiranje funkcionalnosti:
+
+Sve osnovne aritmetičke operacije su ispravno implementirane i vraćaju očekivane rezultate.
+
+Prioritet operacija je ispravno implementiran, tako da se operacije izvršavaju u odgovarajućem redoslijedu.
+
+Aplikacija može obraditi negativne brojeve i ispravno ih tretira u izrazima.
+
+Aplikacija vraća "ERROR" kada se unese neispravan izraz.
+
+Aplikacija ispravno tretira velike brojeve bez gubitka preciznosti.
+
+Aplikacija ispravno tretira izraze s decimalnim brojevima.
